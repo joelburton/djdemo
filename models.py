@@ -9,6 +9,7 @@ class TaskList(models.Model):
     title = models.CharField(
             max_length=50,
             unique=True,
+        help_text="Hey",
     )
 
     def __str__(self):
